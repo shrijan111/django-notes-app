@@ -53,5 +53,5 @@ services:
       - notes-app
 
 networks:
-  - notes-app
-    driver: bridge
+    notes-app:
+      driver: bridge
